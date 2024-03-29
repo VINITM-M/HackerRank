@@ -2,7 +2,7 @@
 
 int main(){
   char s;
-  scanf("[^\n] ",&s);
+  scanf("[^\n] ",s);
   char* tok = strtok(str," ");
   while(tok!=NULL){
     printf("%s\n",tok);
